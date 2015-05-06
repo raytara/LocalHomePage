@@ -47,7 +47,7 @@
 
 		            echo '<li>';
 
-		            $siteroot = sprintf( 'http://%1$s.%2$s.%3$s', $project, $dirname, $tld );
+		            $siteroot = sprintf( 'http://%1$s.%2$s', $project, $tld );
 
 		            // Display an icon for the site
 		            $icon_output = '<span class="no-img"></span>';
